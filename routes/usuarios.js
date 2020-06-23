@@ -2,6 +2,8 @@ const express = require('express')
 const router = express.Router();
 const mysql = require('../mysql').pool;
 
+const upload = multer({ dest: 'uploads_usuario/'})
+
 //retorna todos os usuarios
 router.get('/', (req, res, next) => {
     mysql.getConnection((error, conn) => {
@@ -119,7 +121,9 @@ router.delete('/:id', (req, res, next) =>{
 })
 
 //ALTERA UM USUARIO
-router.patch('/:id', (req, res, next) =>{
+router.patch('/:id', upload.single('imagem_perfil'),(req, res, next) =>{
+
+    console.log(req.file);
     
     mysql.getConnection((error, conn) => {
              

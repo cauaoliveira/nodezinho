@@ -1,9 +1,11 @@
 {
     "env" : {
-        "MYSQL_USER": "root",
-        "MYSQL_PASSWORD": "",
-        "MYSQL_DATABASE": "databaseprj",
-        "MYSQL_HOST": "localhost",
+        "MYSQL_USER": "bc0b11f1bd378f",
+        "MYSQL_PASSWORD": "c81668b3",
+        "MYSQL_DATABASE": "heroku_9b009e8e9ab4af9",
+        "MYSQL_HOST": "us-cdbr-east-05.cleardb.net",
         "MYSQL_PORT": 3306 
     }
 }
+
+
