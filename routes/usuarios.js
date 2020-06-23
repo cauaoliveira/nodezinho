@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router();
 const mysql = require('../mysql').pool;
+const multer = require('multer')
 
 const upload = multer({ dest: 'uploads_usuario/'})
 
