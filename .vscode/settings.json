@@ -1,0 +1,32 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "database": " heroku_4e5308ef30b4d11",
+            "driver": "MySQL",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "cleardb-heroku",
+            "password": "a63e90a6",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "us-cdbr-east-05.cleardb.net",
+            "username": "bbe755496d30b9"
+        },
+        {
+            "askForPassword": false,
+            "database": "heroku_9b009e8e9ab4af9",
+            "driver": "MySQL",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "db-projeto-heroku",
+            "password": "c81668b3",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "us-cdbr-east-05.cleardb.net",
+            "username": "bc0b11f1bd378f"
+        }
+    ]
+}
